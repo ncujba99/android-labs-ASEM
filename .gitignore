@@ -1,0 +1,53 @@
+# Root .gitignore for all Android Studio projects in this repo.
+# Patterns without a leading slash match at any depth, so this covers every
+# Unit*/<Project>/ folder. Per-project .gitignore files still apply on top.
+
+# --- OS ---
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+
+# --- Gradle ---
+.gradle/
+build/
+# Keep the wrapper so projects build without a local Gradle install
+!gradle/wrapper/gradle-wrapper.jar
+
+# --- Kotlin 2.x compiler/daemon cache ---
+.kotlin/
+
+# --- Local machine config (SDK path, signing secrets) ---
+local.properties
+*.jks
+*.keystore
+!debug.keystore
+
+# --- Android Studio / IntelliJ ---
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+captures/
+.navigation/
+
+# --- Native builds ---
+.externalNativeBuild/
+.cxx/
+
+# --- Build outputs ---
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+release/
+
+# --- Logs, heap dumps ---
+*.log
+*.hprof
+
+# --- Lint / test reports outside build/ ---
+lint-report*.html
+lint-results*.xml

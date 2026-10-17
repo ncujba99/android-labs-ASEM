@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Flight Search</string>
+    <string name="search_hint">Enter departure airport</string>
+    <string name="favorite_routes">Favorite routes</string>
+    <string name="no_favorites">No favorite routes yet. Search for an airport and tap the star next to a flight.</string>
+    <string name="no_results">No airports match your search</string>
+    <string name="flights_from">Flights from %1$s</string>
+    <string name="depart">DEPART</string>
+    <string name="arrive">ARRIVE</string>
+    <string name="add_favorite">Add to favorites</string>
+    <string name="remove_favorite">Remove from favorites</string>
+    <string name="clear_search">Clear search</string>
+</resources>
