@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Construiește casa</string>
+    <string name="steps">Etape</string>
+    <string name="empty_lot">(teren gol)</string>
+    <string name="house_ready">Casa este gata!</string>
+    <string name="progress">%1$d / %2$d etape</string>
+    <string name="reset">Resetează construcția</string>
+</resources>
